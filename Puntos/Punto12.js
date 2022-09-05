@@ -62,7 +62,7 @@ export const Punto12 = () => {
     return (
         <div>
             <h1> Lista de estudiantes</h1>
-            <h4> Por favor, agregue primero las notas y luego agregue al estudiante.</h4>
+            <h6> Por favor, agregue primero las notas y luego agregue al estudiante.</h6>
             <center>
                 <input type="text" placeholder="Ingrese las notas" onChange={(event) => onSetNota(event)}></input>
             </center>
