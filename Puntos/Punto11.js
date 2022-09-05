@@ -40,10 +40,10 @@ export const Punto11 = () => {
         }
         avg = suma / total
         if (avg >= 3) {
-            setResultado(", ¡Pasas el semestre!")
+            setResultado(", ¡Pasas la materia!")
         }
         else {
-            setResultado(", No pasas el semestre.")
+            setResultado(", No pasas la materia.")
         }
 
     }
@@ -51,7 +51,7 @@ export const Punto11 = () => {
     return (
         <div>
             <h1> Calculadora de parciales </h1>
-            <h6> Agregue su nombre y 3 notas para saber si paso su semestre. Seleccione una cuarta vez el boton para calcular.</h6>
+            <h6> Agregue su nombre y 3 notas para saber si paso su materia. Seleccione una cuarta vez el boton para calcular.</h6>
             <input type="text" placeholder="Ingrese su nombre" onChange={(event) => onSetNombre(event)}></input>
             <input type="text" placeholder="Ingrese las notas" onChange={(event) => onSetNotas(event)}></input>
             <button onClick={() => onAddNotas()} >Calcular nota</button>
