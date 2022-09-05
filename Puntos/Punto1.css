@@ -1,0 +1,13 @@
+div {
+    border: 2px;
+    border-color: antiquewhite;
+    width:70%;
+	position: relative;
+    background-color: #282c34;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: rgb(214, 194, 194);
+    font-size: 25px;
+}
